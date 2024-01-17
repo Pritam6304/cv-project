@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: blue;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: yellow;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+}
+
+.photo{
+    height: 120px;
+    width: 100px;
+    border: solid 2px rgb(231, 231, 206);
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.header-bio{
+    padding: 10px;
+    color: black;
+    float: left;
+}
+
+.contact-info{
+   float: right;
+    
+}
+
+.contact-info p a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.contact-info a:hover {
+    text-decoration: underline;
+    color: green;
+  }
+
+.clear-div {
+    clear: both;
+}
+
+  
+.bold-hr{
+    border: solid 3px black;
+    width: 100%;
+    border-bottom: 0;
+   
+  }
+
+.left-div{
+ width: 40%;
+ float: left;
+}
+
+.right-div{
+    float: left;
+    width: 60%;
+}
+
+.comon-hr{
+    border : solid 2px black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.left-education{
+    float: left;
+    width: 50%;
+}
+.right-education{
+    float: left;
+    width: 50%;
+}
+
+
+.bottom-section {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.bottom-section, a{
+    color: white;
+    text-decoration: none;
+}
